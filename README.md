@@ -1,4 +1,4 @@
-# Support Software Engineer offline exercise
+# Support Engineer offline exercise
 
 Hello #{insert awesome candidate name here}!
 
