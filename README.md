@@ -2,11 +2,7 @@
 
 Hello #{insert awesome candidate name here}!
 
-This exercise includes three sections that will help us gain a better understanding of your knowledge and ability to research the following topics:
-
-- Data models
-- SQL queries
-- Web applications
+Thank you for applying to our support engineering team.  We'd like to get to know you and your skills better, so we have a two-part exercise.  We'll be looking at this in an anonymized view; please make it easy for us by leaving your name out of the submission.  This exercise should take you 2-4 hours but at the end we'll have a better understanding of you, your knowledge, and your ability to research.
 
 > Please read this entire README before starting (don't worry, it will only take 5 minutes).
 
@@ -14,30 +10,22 @@ This exercise includes three sections that will help us gain a better understand
 
 This is how the exercise is structured with an indication of how much of the total time you should spend on each part.
 
-- [Part 1 - database design (10%)](#1-design-a-database)
-- [Part 2 - sql hunt (30%)](#2-the-sql-hunt)
-- [Part 3 - simple web app (60%)](#3-build-a-simple-web-app)
+- [Part 1 - core values (20%)](#1-core-values)
+- [Part 2 - sql hunt (80%)](#2-the-sql-hunt)
 
-### 1. Design a database
+### 1. Core Values
 
-SalesLoft is a sales engagement application, allowing its users to reach prospective customers faster and more effectively.
+Take a look at SalesLoft's core values https://salesloft.com/company/ and then write a short paragraph for each of them, detailing out a specific event in your life where you've demonstrated that core value. We're looking for both great examples and good communication skills as you tell us about them.  
 
-- Each SalesLoft user belongs to a team.
-- A team has users based on the number of licenses purchased.
-- A user can add people to SalesLoft.
-- A user can add companies to SalesLoft.
-- A person can belong to a Salesloft user.
-- People can belong to a company.
-- A team or user can create a cadence. What's a cadence? A cadence is a sequence of "steps" such as a phone call step and an email step that a team can use to structure customer contact.
-- In other words, a cadence can include people, phone call steps, and email steps.
-- A user can pick the day a step will run.
-- An email step can be run manually or automatically at a certain time.  Automatic emails steps mean that if a person is on that step they will receive the email without the user having to hit send.
-
-TODO: Based on this information, draw an Entity Relationship Diagram [ERD](https://www.lucidchart.com/pages/er-diagrams) representing the relationships between our data in the SalesLoft app. Please note down your design choices. Your ERD can be designed using any tool you prefer. https://www.draw.io/ is a free and useful tool. Paper and pencil and a picture of your ERD sketch works as well!  Please document any assumptions or outstanding questions you have.
+- Bias Toward Action
+- Glass Half Full
+- Team Over Self
+- Put Customers First
+- Focused on Results
 
 ### 2. The SQL Hunt!
 
-As a support software engineer, you'll need to effectively navigate a SQL database, specifically PostgreSQL. In this exercise, you will have to fetch data according to the instructions.
+As a support engineer, you'll need to effectively navigate a SQL database, specifically PostgreSQL. In this exercise, you will have to fetch data according to the instructions.
 
 We are providing the application in a Docker container to prevent any configuring issue and, we are able to gurantee a smooth experience for both Unix and Windows systems.
 
@@ -64,30 +52,6 @@ We would like to see the queries along with the answers for the following questi
 8. Find the book least read by the the engineers who develop in Ruby.
 
 Here you can find helpful documentations: [ActiveRecords queries](https://guides.rubyonrails.org/active_record_querying.html) [Postgresql](http://www.postgresqltutorial.com/postgresql-cheat-sheet/) 
-
-### 3. Build a simple web app
-
-In this last part you will submit a web application with two features:
-
-1. Show a list of People records that are available via the [SalesLoft API](https://developers.salesloft.com/api.html#!/People/get_v2_people_json) using the API key in the email you received. Display each person’s name, email address, and job title.
-2. Create a button that, when clicked, displays a frequency count of all the **unique** characters in all the email addresses of all the People you have access to, sorted by frequency count.
-
-| Character | Count |
-| --------- | ----- |
-| M         | 7     |
-| R         | 5     |
-| S         | 2     |
-
-At SalesLoft we love building quality software and we like to write code other people enjoy working with. Here are the elements we consider important:
-
-- Usability. Having a working application is the first step, right?
-- Deployment. It would be cool to use the application in the cloud!
-- Documentation. Instructions are important and we want to see the reasons behind your development choices.
-- Tests. A test written today is 10 bugs that will not pop up tomorrow!
-- Git. Commit soon and commit often. Branches make cooperative work way easier.
-- Readability. Code should be written for other people to work on: names, indentation, spaces. Everything matters.
-- Frontend frameworks. Do you know any of the numerous frameworks out there? Are you using your choice to your advantage?
-- Development principles. There are different ways to write code. The important thing is doing it deliberately.
 
 Remember, what you learn during these exercises is more important than what you knew before starting!
 
