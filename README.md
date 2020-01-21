@@ -54,6 +54,10 @@ Here you can find helpful documentations: [ActiveRecords queries](https://guides
 
 Remember, what you learn during these exercises is more important than what you knew before starting!
 
+## We're accepting responses via [this form](https://forms.gle/mRRtB6KJ3jqe4oDC9)
+
+If you have any questions, email us at salesloft.exercise@dev-pro.net.
+
 Good Luck!
 
 The SalesLoft Team
