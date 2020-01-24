@@ -32,7 +32,7 @@ We are providing the application in a Docker container to prevent any configurin
 
 1. Download and install Docker from https://docs.docker.com/install/ for your OS
 2. Start Docker in your system (you should see the whale icon somewhere on your screen)
-3. Clone this repo you're in right now.  Near the top, click the green `clone or download` button and choose your preferred method - HTTPS or SSH.   
+3. Clone this repo you're in right now.  Near the top, click the green `clone or download` button and choose your preferred method - HTTPS or SSH.    For more information you can read through here - https://help.github.com/en/github/using-git/which-remote-url-should-i-use.
 4. `cd` into `SupportEngineer-offline-excercise`
 5. Type `./docker_exec.sh`, this command will setup the rails app, and prepare the database.psql -h db -p 5432 -U postgres
 
