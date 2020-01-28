@@ -37,7 +37,7 @@ We are providing the application in a Docker container to prevent any configurin
 
 You can choose to run your queries from Rails Console using `rails c` or from the Postgres console with the following command `bundle exec rails dbconsole`
 
-Alternatively, you can import our database in another application of your choice. Running the command `rake db:dump format=sql` will create a .sql file to import.
+Alternatively, you can import our database in another application of your choice. Running the command `rake db:dump format=sql` will create a .sql file to import. Actually, we had to run this ourselves to help windows people who struggled with Docker to get the task done, so please feel free to get the file from the repository, here's the location - `db/backups/development/20200128105224_sqlhunt_development.sql`.
 
 We would like to see the queries along with the answers for the following questions:
 
