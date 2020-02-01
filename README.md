@@ -31,13 +31,13 @@ We are providing the application in a Docker container to prevent any configurin
 
 1. Download and install Docker from https://docs.docker.com/install/ for your OS
 2. Start Docker in your system (you should see the whale icon somewhere on your screen)
-3. Clone this repo `git clone git@github.com:dmitry-semenov/SupportEngineer-offline-excercise.git`
+3. Clone this repo `git clone git@github.com:dmitry-semenov/SupportEngineer-offline-exercise.git`
 4. `cd` into `SupportEngineer-offline-excercise`
 5. Type `./docker_exec.sh`, this command will setup the rails app, and prepare the database. `psql -h db -p 5432 -U postgres`
 
 You can choose to run your queries from Rails Console using `rails c` or from the Postgres console with the following command `bundle exec rails dbconsole`
 
-Alternatively, you can import our database in another application of your choice. Running the command `rake db:dump format=sql` will create a .sql file to import. Actually, we had to run this ourselves to help windows people who struggled with Docker to get the task done, so please feel free to get the file from the repository, here's the location - `db/backups/development/20200130164231_sqlhunt_development.sql`.
+Alternatively, you can import our database in another application of your choice. Running the command `rake db:dump format=sql` will create a .sql file to import. Actually, we had to run this ourselves to help windows people who struggled with Docker to get the task done, so please feel free to get the file from the repository, here's the location - `db/backups/development/sqlhunt_development.sql`.
 
 We would like to see the queries along with the answers for the following questions:
 
