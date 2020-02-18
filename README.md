@@ -29,8 +29,13 @@ As a support engineer, you'll need to effectively navigate a SQL database, speci
 
 We are providing the application in a Docker container to prevent any configuring issue and, we are able to gurantee a smooth experience for both Unix and Windows systems.
 
-
 1. Download and install Docker from https://docs.docker.com/install/ for your OS
+   
+   *NOTE FOR WINDOWS USERS*
+   
+   Make sure to install the latest version of Docker desktop and enable the file sharing option under Settings > Resources
+   ![docker](https://i.imgur.com/8H3Es1k.png)
+
 2. Start Docker in your system (you should see the whale icon somewhere on your screen)
 3. Clone this repo you're in right now.  Near the top, click the green `clone or download` button and choose your preferred method - HTTPS or SSH.    For more information you can read through here - https://help.github.com/en/github/using-git/which-remote-url-should-i-use.
 4. `cd` into `SupportEngineer-offline-excercise`
