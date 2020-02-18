@@ -15,7 +15,7 @@ This is how the exercise is structured with an indication of how much of the tot
 
 ### 1. Core Values
 
-Take a look at SalesLoft's core values https://salesloft.com/company/ and then write a short paragraph for each of them, detailing out a specific event in your life where you've demonstrated that core value. We're looking for both great examples and good communication skills as you tell us about them.  
+Take a look at SalesLoft's core values https://salesloft.com/company/ and then write a short paragraph for each of them, detailing out a specific event in your life where you've demonstrated that core value. We're looking for both great examples and good communication skills as you tell us about them.
 
 - Bias Toward Action
 - Glass Half Full
@@ -29,12 +29,17 @@ As a support engineer, you'll need to effectively navigate a SQL database, speci
 
 We are providing the application in a Docker container to prevent any configuring issue and, we are able to gurantee a smooth experience for both Unix and Windows systems.
 
-
 1. Download and install Docker from https://docs.docker.com/install/ for your OS
+   
+   *NOTE FOR WINDOWS USERS*
+   
+   Make sure to install the latest version of Docker desktop and enable the file sharing option under Settings > Resources
+   ![docker](https://i.imgur.com/8H3Es1k.png)
+
 2. Start Docker in your system (you should see the whale icon somewhere on your screen)
 3. Clone this repo you're in right now.  Near the top, click the green `clone or download` button and choose your preferred method - HTTPS or SSH.    For more information you can read through here - https://help.github.com/en/github/using-git/which-remote-url-should-i-use.
 4. `cd` into `SupportEngineer-offline-excercise`
-5. Type `./docker_exec.sh`, this command will setup the rails app, and prepare the database.psql -h db -p 5432 -U postgres
+5. For **OSX / Linux** users run the following command `./docker_exec.sh` , for **Windows** users run `docker_exec.bat` these commands will setup the rails app, and prepare the database.psql -h db -p 5432 -U postgres.
 
 You can choose to run your queries from Rails Console using `rails c` or from the Postgres console with the following command `bundle exec rails dbconsole`
 
@@ -51,7 +56,7 @@ We would like to see the queries along with the answers for the following questi
 7. Find the inventor of the third most used programming language by the teams on the most populated floor.
 8. Find the book least read by the the engineers who develop in Ruby.
 
-Here you can find helpful documentations: [ActiveRecords queries](https://guides.rubyonrails.org/active_record_querying.html) [Postgresql](http://www.postgresqltutorial.com/postgresql-cheat-sheet/) 
+Here you can find helpful documentations: [ActiveRecords queries](https://guides.rubyonrails.org/active_record_querying.html) [Postgresql](http://www.postgresqltutorial.com/postgresql-cheat-sheet/)
 
 Remember, what you learn during these exercises is more important than what you knew before starting!
 
