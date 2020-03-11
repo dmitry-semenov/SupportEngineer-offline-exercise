@@ -6,7 +6,7 @@ docker_exec () {
 
 docker-compose down
 docker-compose up --build -d
-CID=$(docker ps | grep -E 'supportengineer|sqlhunt_web' | awk '{print $1}')
+CID=$(docker ps | grep -E 'supportengineer-offline-exercise_web' | awk '{print $1}')
 if [ -z "$CID" ]; then
   echo "Container not found. Restarting Docker"
   docker-compose down
